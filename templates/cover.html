@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block bodyclass %}cover{% endblock %}
+{% block content %}
+
+{# 01 — the masthead #}
+<section class="wrap masthead">
+  <div class="eyebrow tagline">{{ site.tagline }}</div>
+  <h1 class="display name">{{ site.name }}</h1>
+  <hr class="rule">
+</section>
+
+{# 02 — the cover image, as a plate in a publication #}
+<section class="wrap cover-plate">
+  <div class="reveal" data-parallax="0.05">
+    {{ m.plate(cover, sizes='(max-width: 760px) 100vw, 75vw', lazy=False) }}
+  </div>
+  <aside class="fig reveal d1">
+    <div class="f">FIG. 001</div>
+    <div class="t">{{ cover.title }}.</div>
+    <div class="s">{{ cover.subtitle }}, {{ cover.year }}.</div>
+    <div class="s" style="margin-top:1rem"><span class="label"><span class="n">{{ cover.number }}</span></span></div>
+  </aside>
+</section>
+
+{# 03 — the statement #}
+<section class="wrap section vast statement">
+  <h2 class="display xl reveal big">{{ intro.heading }}</h2>
+  <p class="italic muted reveal d1" style="font-size:1.2em">{{ intro.sub }}</p>
+  <p class="reveal d2" style="margin-top:2.5rem">{{ m.link('A little more about the artist', '/artist/') }}</p>
+</section>
+
+{# contents — the way into the archive #}
+<section class="wrap section tight index">
+  <div class="between" style="margin-bottom:1.5rem">
+    <div class="eyebrow dark">THE ARCHIVE &mdash; IN FIVE COLLECTIONS</div>
+    {{ m.link('Open the archive', '/archive/') }}
+  </div>
+  <ol>
+  {% for c in collections %}
+    <li class="reveal">
+      <a href="{{ c.url }}">
+        <span class="cn">NO. {{ c.num }}</span>
+        <span><span class="ct">{{ c.title }}</span><br><span class="cs">{{ c.strap }}</span></span>
+        <span class="ca">&#8599;</span>
+      </a>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+
+{# 04 — current obsessions #}
+<section class="wrap section obsessions">
+  <div class="head">
+    <h2 class="display m reveal">CURRENT OBSESSIONS</h2>
+    <p class="italic muted reveal d1" style="margin-top:0.6rem">Things I've spent an unreasonable amount of time looking at.</p>
+  </div>
+  <div class="arr">
+    {% set notes_for = {
+      'SA-009': 'Still deciding whether I like this one.',
+      'SA-026': 'Drew the shadows first. Regretted it.',
+      'SA-013': 'Mostly an excuse to paint the grille.',
+      'SA-021': 'The record was already scratched.'
+    } %}
+    {% for w in obsessions %}
+    <figure class="o{{ loop.index }} reveal d{{ loop.index0 % 3 }}" style="margin:0" data-parallax="{{ [0.02, 0.07, 0.04, 0.09][loop.index0] }}">
+      {{ m.plate(w, sizes='(max-width: 760px) 100vw, 40vw') }}
+      <figcaption class="lab">
+        {{ m.label(w) }}
+        <span class="hand tilt-{{ 'l' if loop.index is odd else 'r' }}">&ldquo;{{ notes_for[w.id] }}&rdquo;</span>
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+
+{# 05 — the little personal interruption #}
+<section class="wrap section interruption">
+  <div class="snap reveal">
+    <img src="/img/SA-011.jpg" srcset="/img/SA-011-s.jpg 900w, /img/SA-011.jpg 1800w" sizes="(max-width: 760px) 100vw, 60vw" alt="A drawing of a Formula One car in plan and elevation, mid-way through." loading="lazy" decoding="async">
+    <span class="hand">&ldquo;It's usually a bit messier than this.&rdquo;</span>
+  </div>
+  <div class="t reveal d1">
+    <div class="eyebrow dark" style="margin-bottom:1rem">NOTES FROM THE STUDIO</div>
+    <p class="italic" style="font-size:1.25em">A few thoughts, occasional experiments, and things that probably only make sense to me.</p>
+    <p style="margin-top:1.8rem">{{ m.link('Read the notes', '/notes/') }}</p>
+  </div>
+</section>
+
+{# the closing #}
+<section class="wrap section vast closing">
+  <h2 class="display m reveal">THAT'S ALL FOR NOW.</h2>
+  <p class="sub reveal d1">There's always something else to draw.</p>
+  <div class="reveal d2">{{ m.sig('lg') }}</div>
+  <hr class="rule short">
+</section>
+
+{% endblock %}

@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block content %}
+
+{# 01 — the opening #}
+{{ m.page_head('THE ARTIST.', 'An introduction, of sorts.', ['A PERSONAL PROFILE', 'SARA AZIZA — EST. 2026']) }}
+
+<section class="wrap section portrait-spread">
+  <figure class="reveal" style="margin:0" data-parallax="0.03">
+    <div class="plate flat"><img src="/img/portrait.jpg" srcset="/img/portrait-s.jpg 900w, /img/portrait.jpg 1800w" sizes="(max-width: 760px) 100vw, 55vw" alt="Sara, sitting in the sun with an iced coffee, smiling at the camera." decoding="async"></div>
+    <figcaption class="photo-cap">Fig. 01 &mdash; The artist, not currently making art.</figcaption>
+  </figure>
+  <div class="who reveal d1">
+    <h2 class="display l">SARA AZIZA</h2>
+    <p class="role">Artist. Observer. Collector of curiosities.</p>
+    <div class="eyebrow">PORTRAIT OF THE ARTIST &nbsp;&middot;&nbsp; FIG. 001</div>
+  </div>
+</section>
+
+{# 02 — I draw what I like #}
+<section class="wrap section intro-spread">
+  <div class="reveal">
+    <h2 class="display xl">{{ intro.heading }}</h2>
+    <p class="sub" style="font-size:1.2em">{{ intro.sub }}</p>
+  </div>
+  <div class="reveal d1" style="padding-top:clamp(1rem,4vw,5rem)">
+    <p class="lead">{{ intro.lead }}</p>
+    {% for p in intro.paras %}<p>{{ p }}</p>{% endfor %}
+    <span class="hand tilt-l">{{ intro.afterthought }}</span>
+  </div>
+</section>
+
+{# 03 — things that catch my eye #}
+<section class="wrap section">
+  <div class="between" style="margin-bottom:clamp(2rem,5vw,4rem)">
+    <div>
+      <h2 class="display m reveal">THINGS THAT CATCH MY EYE</h2>
+      <p class="italic muted reveal d1" style="margin-top:0.6rem">An incomplete list.</p>
+    </div>
+    <div class="eyebrow reveal d2">A MOODBOARD, OF SORTS</div>
+  </div>
+  {% set mb = ['SA-004', 'SA-012', 'SA-022', 'SA-021', 'SA-011'] %}
+  <div class="moodboard" style="margin-bottom:clamp(3rem,7vw,6rem)">
+    {% for id in mb %}
+      {% set w = works | selectattr('id', 'equalto', id) | first %}
+      <div class="mb mb{{ loop.index }} reveal d{{ loop.index0 % 3 }}" data-parallax="{{ [0.02, 0.08, 0.04, 0.1, 0.03][loop.index0] }}">{{ m.plate(w, 'flat', sizes='(max-width: 760px) 100vw, 40vw') }}</div>
+    {% endfor %}
+  </div>
+  <ol class="eye-list">
+  {% for n, k, d in eye %}
+    <li class="reveal">
+      <div class="k small-caps"><span class="num">{{ n }} /</span>{{ k }}</div>
+      <p>{{ d }}</p>
+    </li>
+  {% endfor %}
+  </ol>
+  <p class="hand tilt-r" style="margin-top:2.5rem">This list changes quite frequently.</p>
+</section>
+
+{# 04 — a few questions #}
+<section class="wrap section">
+  <div class="between" style="margin-bottom:clamp(2rem,5vw,4rem)">
+    <div>
+      <h2 class="display m reveal">A FEW QUESTIONS</h2>
+      <p class="italic muted reveal d1" style="margin-top:0.6rem">Answered with varying degrees of seriousness.</p>
+    </div>
+    <div class="eyebrow reveal d2">AN INTERVIEW, LOOSELY</div>
+  </div>
+  <div class="interview">
+    {% set first = interview[0] %}
+    <article class="qa lead reveal">
+      <div>
+        <div class="q small-caps muted">{{ first[0] }} / {{ first[1] }}</div>
+        <div class="a">{% for p in first[2] %}<p>{{ p }}</p>{% endfor %}</div>
+      </div>
+      <blockquote class="pull" style="margin:0">&ldquo;{{ first[3] }}&rdquo;</blockquote>
+    </article>
+    <div class="col-l">
+    {% for q in interview[1::2] %}
+      <article class="qa reveal" style="margin-bottom:clamp(2.5rem,5vw,5rem)">
+        <div class="q small-caps muted">{{ q[0] }} / {{ q[1] }}</div>
+        <div class="a">{% for p in q[2] %}<p>{{ p }}</p>{% endfor %}</div>
+      </article>
+    {% endfor %}
+    </div>
+    <div class="col-r">
+    {% for q in interview[2::2] %}
+      <article class="qa reveal" style="margin-bottom:clamp(2.5rem,5vw,5rem)">
+        <div class="q small-caps muted">{{ q[0] }} / {{ q[1] }}</div>
+        <div class="a">{% for p in q[2] %}<p>{{ p }}</p>{% endfor %}</div>
+      </article>
+    {% endfor %}
+      <span class="hand tilt-l">Still figuring it out.</span>
+    </div>
+  </div>
+</section>
+
+{# 05 — a note from the artist #}
+<section class="wrap section vast">
+  <div class="letter-wrap">
+    <div class="eyebrow reveal" style="line-height:2">{{ letter.label }}</div>
+    <div class="letter reveal d1">
+      <p class="lt">{{ letter.title }}</p>
+      {% for p in letter.paras %}<p>{{ p }}</p>{% endfor %}
+      <div class="signoff"><span class="pre">{{ letter.signoff }}</span>{{ m.sig() }}</div>
+    </div>
+  </div>
+</section>
+
+{# 06 — the closing #}
+<section class="wrap section end-block">
+  <hr class="rule" style="margin-bottom:3rem">
+  <h2 class="display l reveal">ANYWAY, THAT'S ME.</h2>
+  <p class="sub reveal d1">Or at least, the version of me that fits on a website.</p>
+  <div class="links reveal d2">
+    {{ m.link('Explore the archive', '/archive/') }}
+    {{ m.link('Back to the cover', '/') }}
+  </div>
+</section>
+
+{% endblock %}

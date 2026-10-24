@@ -1,0 +1,828 @@
+Website: Sara Aziza
+Vibe of the website: a beautifully designed independent art magazine, but the entire magazine was about your artwork?
+It could have oversized typography, unusual image placement, little handwritten annotations, full-page paintings and editorial-style photography. It would feel like a cross between an art gallery, a coffee-table book and a personal creative diary. A beautifully curated art magazine that takes the artwork seriously, but doesn't take itself too seriously.
+Sophisticated, slightly eccentric, effortlessly artistic, and full of little personal touches.
+6 pages in this order: 
+THE COVER 
+THE ARCHIVE 
+THE ARTIST
+STUDIO NOTES 
+ENQUIRIES 
+Importantly, 
+THE COVER: 
+The background is a beautiful, warm ivory. Not bright white, not beige. Something that resembles the colour of expensive, slightly textured art paper.
+Across the top, in enormous, elegant serif typography:
+SARA AZIZA
+MY name takes up almost the entire width of the screen.
+It feels like the masthead of an independent fashion magazine. Confident, beautifully proportioned, almost architectural.
+Just above your name, in tiny, widely spaced lettering:
+AN ONGOING COLLECTION OF CURIOSITIES
+Underneath your name sits a very fine espresso-coloured line.
+Then, a little breathing room.
+Nothing is competing for attention.
+The artwork takes centre stage
+Below your name is one enormous piece of artwork.
+But I don't want it to look like a standard image placed in the middle of a website.
+I want it to feel like the cover image of an art publication.
+[IMAGE: media/image1.png]
+Alongside it, in small typography:
+FIG. 001
+London, in Fragments.
+Westminster Bridge — A study in selective detail, 2026.
+The typography is so subtle that you barely notice it at first.
+But when you look closer, there are all these little details.
+As you begin to scroll, the artwork slowly moves upwards.
+The next section is almost completely empty, apart from one statement in large, beautiful typography:
+I DRAW WHAT I LIKE.
+And underneath, much smaller:
+Which, admittedly, is quite a lot of things.
+I wouldn't put your entire About section here.
+Just those two sentences.
+Then perhaps a tiny line:
+A LITTLE MORE ABOUT THE ARTIST ↗
+That takes visitors to THE ARTIST page.
+Further down, the page becomes more playful.
+Imagine a beautiful editorial arrangement of three or four artworks.
+Not a conventional grid.
+One large portrait on the left.
+A smaller architectural study on the right.
+Perhaps a detailed sketch of a car slightly lower down.
+Lots of beautiful negative space between them.
+(just create some realistic paintings, sketches and artwork that fit with the rest of my artwork for this)
+Almost like someone has carefully arranged artwork across the pages of a coffee-table book.
+At the top:
+CURRENT OBSESSIONS
+And underneath, in small italic lettering:
+Things I've spent an unreasonable amount of time looking at.
+Each artwork has a tiny museum-style label.
+For example:
+NO. 014 — UNTITLED
+Graphite on paper.
+Then, in handwriting:
+“Still deciding whether I like this one.”
+This section is important because it demonstrates that you draw completely different subjects, but they somehow all belong together.
+That's the whole identity we're creating.
+05 — The little personal interruption
+This is where I want to introduce something unexpected.
+Between the polished editorial sections, imagine a small photograph of your actual workspace.
+Not a perfectly staged, Pinterest-worthy art studio.
+Your real desk.
+Paintbrushes, pencils, an unfinished sketch, a coffee cup, whatever happens to be there.
+The photograph is small and slightly tilted, almost as though someone has tucked it between the pages of a magazine.
+Beside it is a little handwritten note:
+“It's usually a bit messier than this.”
+And below, in formal typography:
+NOTES FROM THE STUDIO
+A few thoughts, occasional experiments, and things that probably only make sense to me.
+Then a subtle link:
+READ THE NOTES ↗
+The closing part of the page 
+As you reach the bottom, the website becomes beautifully minimal again.
+A large amount of ivory space.
+Then, centred:
+THAT'S ALL FOR NOW.
+And underneath:
+There's always something else to draw.
+Then your handwritten signature:
+A thin horizontal line.
+And the footer:
+SARA AZIZA © 2026
+THE COVER / THE ARCHIVE / THE ARTIST / STUDIO NOTES / UNFINISHED BUSINESS / ENQUIRIES
+THE ARCHIVE 
+This is where I want to do something a little different.
+Rather than displaying five identical collection cards, each collection gets its own beautifully designed editorial spread.
+Think of turning the pages of an oversized coffee-table book.
+Each collection occupies approximately one screen as you scroll.
+The layouts alternate slightly, creating a rhythm without making the website feel inconsistent.
+COLLECTION 01
+FACES & FAMILIAR STRANGERS
+People I know. People I don't. People everyone knows.
+Imagine this section having a very large, striking portrait on the right.
+Perhaps a beautiful charcoal drawing, with the face emerging from a warm, textured background.
+On the left:
+COLLECTION NO. 01
+FACES & FAMILIAR STRANGERS
+Then the little description underneath.
+People I know. People I don't. People everyone knows.
+A tiny link:
+EXPLORE THE COLLECTION ↗
+But here's what makes it interesting.
+A second, smaller portrait slightly overlaps the corner of the larger one.
+Almost like a photograph tucked between the pages of a book.
+And beside it, a tiny handwritten annotation:
+“Some faces are just more interesting to draw.”
+The layout is elegant and minimal, but it has depth and personality.
+The feeling: An intimate portrait exhibition.
+[IMAGE: media/image2.png]
+[IMAGE: media/image3.png]
+[IMAGE: media/image4.png]
+[IMAGE: media/image5.png]
+[IMAGE: media/image6.png]
+[IMAGE: media/image7.png]
+[IMAGE: media/image8.png]
+[IMAGE: media/image9.png]
+COLLECTION 02
+UNDER THE SURFACE
+Anatomy, architecture, engineering, and other things I wanted to take apart (on paper).
+This is where the website becomes a little more technical.
+Imagine an enormous architectural drawing stretching across the left side of the screen.
+A beautifully detailed cross-section of a building.
+Or an exploded mechanical drawing of a vintage Porsche.
+The artwork has intricate pencil lines, measurements and annotations.
+On the right:
+COLLECTION NO. 02
+UNDER THE SURFACE
+Anatomy, architecture, engineering, and other things I wanted to take apart (on paper).
+EXPLORE THE COLLECTION ↗
+Then perhaps a tiny technical-looking annotation near the artwork:
+FIG. 002 — A STUDY OF STRUCTURE
+And in handwriting:
+“I have a lot of questions about how things work.”
+I particularly love the idea of this collection having a slightly different visual language.
+Not a different website design, but more technical details.
+Thin measurement lines, small numbers, little diagram labels.
+Almost like a page from an old engineering notebook.
+The feeling: Leonardo da Vinci's sketchbook meets contemporary design.
+[IMAGE: media/image10.png]
+[IMAGE: media/image11.png]
+[IMAGE: media/image12.jpeg]
+[IMAGE: media/image13.png]
+[IMAGE: media/image14.png]
+[IMAGE: media/image15.png]
+COLLECTION 03
+OBJECTS OF AFFECTION
+Things that probably didn't need a portrait of their own.
+This one could be SO beautiful.
+Imagine a huge amount of negative space.
+Then, in the middle of the page, a beautifully rendered drawing of a single object.
+Perhaps a vintage camera.
+Or a pair of ballet shoes.
+Or a perfume bottle.
+Something ordinary, treated as though it belongs in a museum.
+The image is smaller than the artwork in the previous collections.
+It sits against the ivory background, surrounded by lots of space.
+Almost like a still-life painting hanging alone on a gallery wall.
+Underneath:
+COLLECTION NO. 03
+OBJECTS OF AFFECTION
+Things that probably didn't need a portrait of their own.
+EXPLORE THE COLLECTION ↗
+And somewhere discreetly:
+“I thought it deserved a moment.”
+I really like that.
+It makes something mundane feel important, but with a little self-awareness.
+The feeling: Quiet luxury, still-life photography, beautiful everyday things.
+[IMAGE: media/image16.jpeg]
+[IMAGE: media/image17.png]
+[IMAGE: media/image18.png]
+[IMAGE: media/image19.png]
+[IMAGE: media/image20.png]
+[IMAGE: media/image21.jpeg]
+COLLECTION 04
+PLACES I'VE BEEN (AND SOME I HAVEN'T)
+An admittedly selective visual record.
+This section could be the most atmospheric.
+Imagine a beautiful architectural painting stretching almost edge-to-edge.
+Perhaps a narrow European street, a striking building or a cityscape.
+Rather than placing the artwork in a neat rectangle, we could make it feel like a full-page editorial photograph.
+The image occupies most of the screen.
+Overlapping one edge, on a little ivory panel:
+COLLECTION NO. 04
+PLACES I'VE BEEN (AND SOME I HAVEN'T)
+An admittedly selective visual record.
+EXPLORE THE COLLECTION ↗
+And perhaps a handwritten note:
+“Not all of these are travel recommendations.”
+Or:
+“Some places are better on paper.”
+This would be a lovely opportunity to introduce slightly more atmospheric, colourful artwork into the website.
+The feeling: A beautifully illustrated travel journal.
+[IMAGE: media/image1.png]
+[IMAGE: media/image22.png]
+[IMAGE: media/image23.png]
+[IMAGE: media/image24.png]
+[IMAGE: media/image25.png]
+[IMAGE: media/image26.png]
+COLLECTION 05
+EVERYTHING ELSE
+Because apparently five categories weren't enough.
+Okay, this is my favourite from a personality perspective.
+And I think we should have some fun with its presentation.
+The first four collections have all been beautifully organised, carefully numbered and meticulously laid out.
+Then we reach:
+COLLECTION NO. 05
+EVERYTHING ELSE.
+Because apparently five categories weren't enough.
+And instead of one enormous artwork, we see a carefully arranged collection of seemingly unrelated pieces.
+A little abstract painting.
+A sketch of a hand.
+An experimental drawing.
+Perhaps a colourful study that doesn't fit anywhere else.
+They're arranged like a beautiful, slightly chaotic collage.
+Some overlap.
+Some are tilted a few degrees.
+One might even look like it's been taped to the page.
+But—and this is important—it still feels sophisticated.
+The chaos is deliberate.
+Then, in tiny handwritten lettering:
+“I did try to categorise these.”
+And underneath:
+EXPLORE THE COLLECTION ↗
+The feeling: A beautifully curated creative mess.
+[IMAGE: media/image27.png]
+[IMAGE: media/image28.png]
+[IMAGE: media/image29.png]
+03 — How the page would actually scroll
+I don't want the five collections to feel like five completely separate websites.
+There should be a consistent rhythm.
+I'm imagining:
+THE ARCHIVE ↓ A large portrait introduces Collection 01 ↓ A delicate horizontal line ↓ A technical drawing introduces Collection 02 ↓ A generous amount of ivory space ↓ A beautiful still-life introduces Collection 03 ↓ A full-width atmospheric painting introduces Collection 04 ↓ An unconventional collage introduces Collection 05 ↓ A personal closing note
+The page should feel like you're moving through different chapters of one publication.
+The animations
+I would keep these incredibly subtle.
+As you scroll, artwork gently fades into view.
+Some images could move at slightly different speeds, creating a very subtle sense of depth.
+The collection numbers might appear first, followed by the headings.
+On hover, an image could enlarge by just a fraction.
+No dramatic spinning animations, bouncing elements or excessive effects.
+The artwork is the spectacle. The website is the frame.
+04 — What happens when you click a collection?
+This is important.
+I wouldn't open a conventional gallery with twenty identical thumbnails.
+Each collection should have its own dedicated page.
+For example:
+SARA AZIZA / THE ARCHIVE / FACES & FAMILIAR STRANGERS
+At the top:
+COLLECTION NO. 01
+FACES & FAMILIAR STRANGERS
+People I know. People I don't. People everyone knows.
+Then a beautiful editorial gallery of your artwork.
+Some pieces are large.
+Others are small.
+Some have little handwritten observations.
+Some are presented completely without commentary.
+Clicking an individual artwork opens a dedicated artwork view with its title, medium, dimensions, year and any personal notes.
+This is how we create the feeling of a real, curated archive.
+05 — The final section
+After the fifth collection, I'd end the page with something very simple.
+A large amount of ivory space.
+Then:
+THAT'S EVERYTHING.
+For now, anyway.
+And underneath:
+BACK TO THE COVER ↗
+Perhaps a tiny handwritten note:
+“The collection is still growing.”
+It's a lovely way to acknowledge that your work doesn't fit neatly into five permanent categories.
+And it encourages people to return.
+One detail I'd definitely include
+I'd number everything.
+Not just the collections, but the individual pieces.
+For example:
+SA—001
+ SA—002 
+SA—003
+The initials stand for Sara Aziza.
+Each artwork gets its own unique archive number, regardless of which collection it belongs to.
+So a portrait might be:
+SA—014 / FACES & FAMILIAR STRANGERS
+And a technical drawing might be:
+SA—027 / UNDER THE SURFACE
+I think this would be a beautiful recurring design element.
+It feels like a professional artist's catalogue, but it also makes your collection feel like something that's constantly evolving.
+And as your archive grows, those numbers become part of its history.
+The artist:
+SARA AZIZA
+THE ARTIST
+An introduction, of sorts.
+01 — THE OPENING
+Meet Sara.
+The page opens onto our familiar warm ivory background.
+Your navigation sits quietly at the top.
+Then, in enormous, elegant serif typography:
+THE ARTIST.
+Underneath:
+An introduction, of sorts.
+In the opposite corner:
+A PERSONAL PROFILE  SARA AZIZA — EST. 2026
+A delicate espresso-coloured line separates the heading from the content.
+The photograph
+We're keeping the photograph you sent me.
+And I wouldn't change much about it.
+I love the natural sunlight, the relaxed setting, your smile, and the fact that you're simply enjoying a moment rather than posing in an art studio.
+The photograph sits on the left, occupying approximately 55% of the width.
+THIS PHOTO PLEASE: 
+[IMAGE: media/image30.png]
+On the right, in beautiful editorial typography:
+SARA AZIZA
+Artist. Observer. Collector of curiosities.
+Then, underneath:
+PORTRAIT OF THE ARTIST  FIG. 001
+And beneath your photograph, in tiny italic lettering:
+Fig. 01 — The artist, not currently making art.
+I think this is such a lovely opening.
+It's sophisticated, but it doesn't feel like you're trying to manufacture an artistic persona.
+02 — I DRAW WHAT I LIKE
+The introduction.
+This is the statement that defines your artistic identity.
+And I think we should preserve the writing you loved.
+As you scroll, the page opens into a beautifully spacious editorial spread.
+On one side, enormous serif typography:
+I DRAW WHAT I LIKE.
+Underneath:
+Which, admittedly, is quite a lot of things.
+Then the introduction:
+Faces. Buildings. Cars.
+Things I find beautiful. Things I find strange. Things I don't entirely understand.
+I've never really felt the need to choose just one.
+I like the idea that anything can become interesting if you look at it for long enough.
+So this is my little corner of the internet for collecting those things.
+Nothing more complicated than that.
+The design
+I'd give this section plenty of breathing room.
+The first three words — Faces. Buildings. Cars. — could be slightly larger than the rest of the paragraph.
+The final sentence could appear in delicate handwritten lettering.
+It's almost like an afterthought.
+And that's what makes it charming.
+03 — THINGS THAT CATCH MY EYE
+An incomplete list.
+This section is about your curiosity.
+Rather than describing your inspirations in a long paragraph, we show them.
+Imagine a beautifully curated collage of photographs, sketches, textures and little observations.
+Almost like an artist's moodboard, but presented in the pages of a luxury magazine.
+Some images are large.
+Others are tiny.
+Some overlap slightly.
+All feel deliberately arranged.
+The five categories
+01 / INTERESTING FACES
+There's something fascinating about the details that make a face recognisable. The expressions, the imperfections, the little features that make someone unmistakably themselves.
+02 / THINGS WITH TOO MANY DETAILS
+Intricate mechanisms, technical drawings, complicated structures. The kind of things that make you wonder how anyone managed to put them together in the first place.
+03 / OLD BUILDINGS
+Interesting architecture, beautiful proportions, elaborate details and places that look like they have stories to tell.
+04 / BEAUTIFUL ORDINARY OBJECTS
+Things that most people probably wouldn't think twice about. A camera, a glass, a chair, an old book. Sometimes the most ordinary things make the most interesting subjects.
+05 / THINGS I DON'T UNDERSTAND YET
+Because sometimes drawing something is simply an excuse to spend a little longer figuring it out.
+And in tiny handwritten lettering at the bottom:
+This list changes quite frequently.
+I really like how this section complements The Archive without repeating it.
+The Archive is about what you've created.
+This section is about what captures your attention.
+04 — A FEW QUESTIONS
+Answered with varying degrees of seriousness.
+Okay, this is the section I want to get particularly right.
+Imagine a beautifully designed magazine interview.
+Not a formal Q&A.
+Not an artist statement.
+Just a few thoughtful questions that allow people to understand you a little better.
+The questions appear in small uppercase lettering.
+The answers are written in beautiful, slightly larger serif typography.
+Some are reflective. Some are conversational. And there's the occasional bit of humour.
+Here are the answers I'd propose as a first draft.
+01 / HOW WOULD YOU DESCRIBE YOUR ARTISTIC STYLE?
+I've never really known how to answer this question.
+I like realism, but I also love the freedom of making something a little less perfect. Sometimes I want to capture every tiny detail, and other times I'm more interested in the feeling of a piece than how accurately I've drawn it.
+I think my style changes depending on what I'm creating, which probably isn't the most helpful answer.
+But I quite like it that way.
+02 / WHAT DO YOU ENJOY DRAWING MOST?
+I don't think I have a favourite subject.
+I'm drawn to anything that makes me want to look a little closer. Sometimes that's a face, sometimes it's the structure of a building, and sometimes it's something completely ordinary that I've decided deserves far more attention than it probably does.
+I think that's what I enjoy most about drawing. There doesn't have to be a particularly good reason to make something.
+Sometimes you just want to.
+03 / WHERE DO YOU FIND INSPIRATION?
+Pretty much everywhere, which sounds like a terribly predictable answer, but it's true.
+I love noticing little details. The way light falls across something, the proportions of a building, an interesting expression, or the intricacy of something mechanical.
+I think inspiration is less about actively searching for something extraordinary and more about paying attention to what's already there.
+Although occasionally, I do just see something and think, that would make a really good drawing.
+04 / WHAT'S YOUR FAVOURITE PART OF THE CREATIVE PROCESS?
+That moment when a piece starts to come together.
+There's usually a point where I've spent ages working on individual details, and then suddenly I take a step back and realise it's beginning to look like what I imagined.
+I love that feeling.
+Of course, there's also the slightly less enjoyable moment when I realise I've spent an unreasonable amount of time perfecting something nobody else will probably notice.
+But I suppose that's part of it.
+05 / DO YOU HAVE A PARTICULAR CREATIVE PROCESS?
+Not really, and I'm not entirely sure I'd want one.
+Some ideas sit in my head for ages before I do anything with them. Others make it onto paper almost immediately.
+Sometimes I know exactly what I want to create. Other times I start with a vague idea and see where it takes me.
+I like having the freedom to approach each piece differently.
+It keeps things interesting.
+06 / WHAT DO YOU HOPE PEOPLE TAKE AWAY FROM YOUR WORK?
+I'd love for someone to look at something I've created and notice a detail they might otherwise have overlooked.
+I don't think every piece needs to have some enormous hidden meaning or make a profound statement.
+Sometimes it's enough for something to be interesting, beautiful, unusual, or simply worth looking at for a little longer.
+And if it makes someone curious about something they hadn't thought much about before, even better.
+07 / WHAT'S NEXT?
+Your guess is as good as mine.
+I always seem to have more ideas than I have time to make them, and the list keeps getting longer.
+There are things I want to experiment with, subjects I haven't explored yet, and probably a few ideas that won't make much sense until I actually try them.
+I quite like not knowing exactly where it's all going.
+It means there's always something new to make.
+How I'd present the interview
+I wouldn't put all seven questions into one enormous block of text.
+Instead, I'd use a two-column editorial layout.
+Some questions could be on the left, others on the right.
+Perhaps the first answer is particularly prominent, with the words:
+“I quite like it that way.”
+Pulled out in oversized italic typography.
+And there could be a tiny handwritten annotation somewhere:
+Still figuring it out.
+I think this section would feel intimate without becoming overly serious.
+One important thing: I've written these answers based on the artistic identity we're developing, rather than assuming they're all true of you. Before publishing, I'd want to go through them together and make sure they genuinely reflect how you think.
+05 — A NOTE FROM THE ARTIST
+For anyone who's made it this far.
+This is where I'd like the page to become a little quieter.
+We've introduced you.
+We've talked about your interests.
+We've explored the way you approach art.
+Now I want to end with something that feels genuinely personal.
+Not another explanation of your creative process.
+Not a dramatic statement about what art means to you.
+Just a little note.
+The layout
+Imagine a large amount of warm ivory space.
+On the left, in small uppercase typography:
+A PERSONAL NOTE FROM SARA, WITH LOVE
+Then, slightly off-centre, a beautifully typeset letter.
+Almost like someone has tucked a handwritten note into the back of an art book.
+Here's what I'd write.
+A little note from me to you.
+I'm not entirely sure what brought you here, but I'm very glad you found your way.
+I've always liked the idea of having somewhere to collect the things I create. Not necessarily because they all belong together, or because there's some grand idea behind them, but simply because they each meant something to me at the time.
+Some pieces take hours of careful thought. Others begin with a passing interest that somehow turns into an entire afternoon spent drawing.
+I suppose that's what I love about making art. You never really know what will catch your attention next.
+This little space is my way of keeping track of it all. The finished pieces, the experiments, the ideas that worked, and the ones that perhaps needed a little more thought.
+I hope you enjoy looking through it as much as I've enjoyed putting it together.
+And if nothing else, I hope you find something that makes you stop and look twice.
+Thank you for being here.
+Love, Sara x
+06 — THE CLOSING
+After your letter, I'd keep the ending incredibly simple.
+A thin espresso-coloured line.
+Then, in beautiful large typography:
+ANYWAY, THAT'S ME.
+Underneath:
+Or at least, the version of me that fits on a website.
+And two small editorial links:
+EXPLORE THE ARCHIVE ↗
+BACK TO THE COVER ↗
+Then the usual website footer.
+I wouldn't add anything else.
+The final impression should feel warm, intimate and a little self-aware.
+Stuido notes 
+SARA AZIZA
+STUDIO NOTES
+Occasional thoughts, observations & other distractions.
+01 — THE OPENING
+A little look inside my head.
+Imagine clicking STUDIO NOTES.
+The page opens onto our familiar warm ivory background.
+Your navigation sits quietly at the top.
+Then, in enormous, beautiful serif typography:
+STUDIO NOTES.
+Underneath:
+Occasional thoughts, observations & other distractions.
+And in the opposite corner:
+A PERSONAL JOURNAL CURATED BY SARA AZIZA
+A thin espresso-coloured line separates the heading from the content.
+Then, just underneath, in tiny handwritten lettering:
+Somewhat organised. Occasionally interesting.
+I LOVE that.
+It immediately establishes that this page is a little more relaxed than the others.
+A short introduction
+Below the heading, I'd include a little note:
+I have a habit of collecting things.
+Interesting thoughts. Half-formed ideas. Photographs I like. Things I want to draw. Things I probably won't.
+This is where I put the things that don't quite belong anywhere else.
+Think of it as a notebook with slightly better organisation.
+This introduces the page without making it sound like a conventional blog.
+02 — THE NOTEBOOK
+The main feature of the page.
+This is where I want to do something visually beautiful.
+Rather than displaying conventional blog cards, I'd create an editorial arrangement of journal entries.
+Imagine scrolling through a beautifully designed independent magazine.
+Some entries are large.
+Others are tiny.
+Some have photographs.
+Some are just a few lines of writing.
+Some contain sketches or little handwritten annotations.
+And some are almost entirely visual.
+Everything feels like a collection of personal notes that have been carefully arranged across the page.
+The layout
+Imagine three entries appearing together.
+On the left, a large photograph of an interesting building.
+Underneath:
+NOTE NO. 001 / OBSERVATIONS
+ON LOOKING UP.
+I've noticed that I spend a surprising amount of time looking at buildings.
+Not necessarily the famous ones. Sometimes it's just a particularly interesting window, an unusual staircase, or a bit of architecture that someone clearly put a lot of thought into.
+I wonder how many interesting things we walk past every day without really noticing.
+On the right, a smaller photograph of a sketchbook.
+Underneath:
+NOTE NO. 002 / THOUGHTS
+ON HAVING TOO MANY IDEAS.
+I have an ever-growing list of things I'd like to draw.
+Unfortunately, the list seems to grow considerably faster than my ability to actually draw them.
+An ongoing logistical issue.
+Then perhaps, tucked between the two entries, a tiny handwritten note:
+Must get round to this.
+This is the kind of subtle humour I want throughout the page.
+03 — THE DIFFERENT KINDS OF NOTES
+I don't think we need to organise this page into rigid categories.
+But I do think it would be nice to have a few recurring types of entries.
+Almost like regular columns in a magazine.
+Here are the ones I'd introduce.
+01 / OBSERVATIONS
+Things I've noticed.
+These would be little thoughts about things that catch your attention.
+They don't even have to be directly related to your artwork.
+For example:
+ON THE ART OF NOTICING.
+There's something quite satisfying about finding beauty in something completely ordinary.
+An interesting shadow. The shape of a staircase. The way someone's expression changes when they're thinking.
+I like the idea that the world is full of things worth looking at, if you're willing to pay attention.
+These could be accompanied by photographs you've taken.
+02 / CURRENT FIXATIONS
+Things I can't stop thinking about.
+This could be one of my favourite recurring features.
+Imagine an entry titled:
+CURRENTLY OBSESSED WITH: OLD CARS.
+Then a beautifully arranged collection of reference photographs, sketches, details and little observations.
+Perhaps you've become interested in the engineering of vintage Porsches.
+You could write about what caught your attention and include little drawings of the details you find interesting.
+The following month, you might be fascinated by Gothic architecture.
+Or human anatomy.
+Or something completely unrelated.
+This section celebrates the fact that your interests change.
+Rather than treating that as a lack of artistic direction, we're making it part of your identity.
+03 / LITTLE DISCOVERIES
+Things I learned along the way.
+I LOVE the idea of including little discoveries.
+Not tutorials.
+Not educational articles.
+Just interesting things you've found out while researching or drawing.
+For example:
+A LITTLE SOMETHING ABOUT CATHEDRALS.
+A short observation about an architectural feature you've been studying.
+Perhaps accompanied by a sketch and a handwritten annotation.
+This would make the website feel intellectually curious without becoming academic.
+04 / NOTES TO SELF
+Things I probably needed reminding of.
+These would be short, slightly personal reflections.
+Almost like thoughts scribbled in the margins of a notebook.
+For example:
+ON PERFECTIONISM.
+At some point, you have to decide whether you're improving something or simply refusing to call it finished.
+I'm still working on that distinction.
+I really like the idea that some entries could be only two sentences long.
+They don't all need to be substantial pieces of writing.
+05 / INSPIRATION FILES
+Things worth keeping.
+These would be predominantly visual.
+Imagine a beautiful collection of photographs, textures, colour combinations, sketches, objects and references.
+Almost like a moodboard.
+Perhaps titled:
+INSPIRATION FILE NO. 003 — THE COLOUR BURGUNDY.
+Then a collection of images that explore that colour.
+Or:
+INSPIRATION FILE NO. 007 — INTERESTING WINDOWS.
+I think this could become a really distinctive feature of the website.
+And it would allow you to share your interests without necessarily having to create a finished artwork every time.
+04 — HOW THE PAGE WOULD LOOK
+This is where I'd make STUDIO NOTES feel slightly different from the rest of your website.
+The Archive is carefully curated.
+The Artist is beautifully composed.
+Studio Notes should feel a little more spontaneous.
+But still expensive.
+The editorial notebook layout
+Imagine a two-column layout.
+One column is slightly wider than the other.
+A large entry might occupy the entire width.
+A smaller entry might sit beside a photograph.
+Some notes could appear on slightly different shades of cream paper.
+Occasionally, a handwritten annotation overlaps an image.
+A photograph might look like it's been tucked into the page.
+But I wouldn't use excessive tape graphics, stickers or scrapbook decorations.
+That could make it feel too crafty.
+The goal is an artist's notebook interpreted through luxury editorial design.
+Think expensive paper, beautiful typography and carefully controlled imperfections.
+05 — A FEATURED NOTE
+I think the top of the page should always feature one particularly interesting entry.
+Almost like the cover story of a magazine.
+For example:
+FEATURED NOTE / NO. 001
+ON HAVING NO PARTICULAR STYLE.
+And underneath:
+I've been told that artists are supposed to find their style.
+I'm not entirely sure I've found mine.
+I like too many things, change my mind too often, and get distracted by whatever happens to interest me that week.
+Maybe that's a style in itself.
+Imagine this appearing beside a beautiful photograph of a half-finished sketchbook.
+I think this is a particularly strong first entry because it introduces the entire philosophy behind your website.
+It also complements The Artist page without repeating the same introduction.
+And I like that it doesn't pretend you have everything figured out.
+06 — WHAT HAPPENS WHEN YOU CLICK A NOTE?
+This is important.
+I wouldn't have entries simply expand in little boxes.
+Each note should open onto its own beautifully designed editorial page.
+For example:
+SARA AZIZA / STUDIO NOTES / NO. 004
+At the top:
+NOTE NO. 004 THOUGHTS / OCTOBER 2026
+ON KNOWING WHEN TO STOP.
+Then the entry itself.
+If it's a short note, the page might contain only a few paragraphs and one beautiful photograph.
+If it's a longer reflection, it could have multiple images, little handwritten annotations and pull quotes.
+The layout should adapt to the content.
+Some notes might feel like essays.
+Others might feel like postcards.
+And some might be nothing more than a photograph and a sentence.
+That's what makes it a notebook rather than a blog.
+07 — A LITTLE PERSONAL TOUCH
+I have an idea that could make this page particularly charming.
+What if some notes had tiny additions at the bottom?
+Almost like you've come back to them later and added another thought.
+For example:
+ON HAVING TOO MANY IDEAS
+I have an ever-growing list of things I'd like to draw.
+Unfortunately, the list seems to grow considerably faster than my ability to actually draw them.
+An ongoing logistical issue.
+Then, underneath, in handwritten lettering:
+Update: the list has gotten longer.
+Or perhaps:
+Still haven't started this.
+I love the idea of the journal feeling alive.
+Not everything has to be written once and left untouched.
+You could revisit an old thought, add an observation or include a new photograph.
+It would feel like a real notebook that's constantly evolving.
+08 — THE CLOSING
+At the bottom of the page, after the notes, I'd include a beautifully understated ending.
+A large amount of ivory space.
+Then:
+THAT'S ALL I'VE GOT FOR NOW.
+Underneath:
+I'll probably think of something else.
+Then, in tiny handwritten lettering:
+Sara x
+And a subtle link:
+BACK TO THE COVER ↗
+I think it's the perfect ending for this page.
+Slightly witty.
+Very personal.
+And completely in keeping with the personality we've established.
+ENQUIRIES 
+SARA AZIZA
+ENQUIRIES
+For something that doesn't exist yet.
+I LOVE this as the opening line.
+It's slightly mysterious, very elegant and immediately establishes that commissions are about creating something new.
+And I have a very specific vision for this page.
+01 — THE OPENING
+For something that doesn't exist yet.
+Imagine clicking ENQUIRIES.
+The page opens onto our familiar warm ivory background.
+Your navigation sits quietly at the top.
+Then, in enormous editorial serif typography:
+ENQUIRIES.
+Underneath:
+For something that doesn't exist yet.
+And in the opposite corner, in small uppercase lettering:
+ORIGINAL WORKS & PRIVATE COMMISSIONS SARA AZIZA
+A thin espresso-coloured line separates the heading from the rest of the page.
+Then, beneath it, I'd have one beautifully written statement.
+Not a sales pitch.
+Not a price list.
+Not a catalogue.
+Just a simple explanation of what you believe in.
+02 — THE PHILOSOPHY
+One piece. One home. No duplicates.
+This is the most important part of the page.
+I want this section to feel almost like an artist's manifesto, but without the pretentiousness that sometimes comes with that.
+Imagine a huge amount of ivory space.
+Then, in oversized serif typography:
+MADE ONCE.
+KEPT FOREVER.
+And underneath, a short statement.
+The writing I'd propose
+I don't make prints, reproductions or editions.
+Every piece I create is an original. Made by hand, made with intention, and made only once.
+I like the idea that a painting can belong entirely to one person. That somewhere, in someone's home, there's a piece of art that exists nowhere else in the world.
+No duplicates. No second versions. No one else with the same thing hanging on their wall.
+Just one piece, created for one place, to become part of someone's life.
+And I think there's something rather lovely about that.
+This is the feeling I want people to leave with.
+Not that they're purchasing a product.
+That they're commissioning something genuinely individual.
+03 — THE COMMISSIONS
+Something entirely your own.
+Now we introduce the possibility of commissioning you.
+But I wouldn't call this section SHOP, ORDER NOW, or even BUY ART.
+I'd call it:
+SOMETHING ENTIRELY YOUR OWN.
+And underneath:
+Original artwork, made especially for you.
+Then the introduction:
+I occasionally take on private commissions.
+Whether it's a portrait, a place, an object, or something a little harder to categorise, I'm always interested in hearing about ideas that someone would like to bring to life.
+I don't work from a fixed catalogue, and I don't offer reproductions of existing pieces.
+Every commission begins with a conversation and becomes an original artwork, created specifically for the person who will own it.
+I work on a larger scale, allowing each piece the space and attention it deserves.
+If you have something in mind, I'd love to hear about it.
+A little detail I'd include
+Underneath this, in small uppercase typography:
+ORIGINAL ARTWORK ONLY ONE OF ONE LARGE-FORMAT PIECES BY PRIVATE COMMISSION
+It feels like a gallery's commission information rather than an online store.
+04 — THE PROCESS
+How it works.
+I think we should make the commissioning process feel approachable.
+Someone might love your work but have absolutely no idea how to commission an artist.
+We want to remove that uncertainty without turning the page into a checkout experience.
+I'd introduce a beautifully understated three-step process.
+I. THE IDEA
+Tell me what you're imagining.
+It doesn't need to be perfectly formed.
+You might have a particular subject in mind, a reference photograph, a space you'd like to fill, or simply an idea you've been thinking about.
+Tell me a little about it, and we'll see where it goes.
+II. THE CONVERSATION
+Let's work out the details.
+We'll discuss the subject, scale, medium, creative direction and any practical considerations.
+I'll let you know whether it's something I can take on, along with the proposed price and timeframe.
+III. THE PIECE
+Made once. Just for you.
+Once we've agreed on the direction, I'll begin creating your original artwork.
+The finished piece will be yours alone.
+No prints. No reproductions. No second editions.
+Just the original.
+I love the simplicity of this.
+It makes the process feel personal and considered.
+And it reinforces the one-of-one philosophy without constantly repeating it.
+05 — THE ENQUIRY FORM
+Tell me what you have in mind.
+This is where I want the website to feel a little less formal.
+We've established your artistic philosophy. We've explained commissions. Now we invite someone to get in touch.
+Imagine a beautifully spacious section with the heading:
+SHALL WE MAKE SOMETHING?
+Underneath:
+Have an idea? A particular subject? An empty wall that's been bothering you?
+Tell me about it.
+I LOVE that last bit about the empty wall. It's subtle, a little funny, and feels completely in keeping with the personality we've developed.
+The form
+I wouldn't make people complete a lengthy commission application.
+I'd keep it beautifully simple.
+[TABLE]
+Field | Placeholder
+YOUR NAME | What should I call you?
+EMAIL ADDRESS | Somewhere I can find you
+WHAT ARE YOU THINKING? | Tell me about your idea...
+APPROXIMATE SIZE | Do you have a size in mind?
+TIMELINE | Is there a particular date you're working towards?
+REFERENCE IMAGES | Have something to show me? (Optional)
+[/TABLE]
+Then one elegant button:
+SEND YOUR ENQUIRY ↗
+And beneath it, in tiny italic lettering:
+No need to have it all figured out. That's what the conversation is for.
+I think that final sentence is important.
+You want to attract people who appreciate original artwork, but you don't want them to feel intimidated about approaching you.
+What about pricing?
+I wouldn't publish a full price list.
+You're creating individual, large-format pieces, so the price will naturally depend on the size, medium, complexity and time involved.
+However, once you've established your pricing, I would consider including a discreet starting price.
+Something like:
+Commissions are individually priced according to scale and complexity.
+Or eventually:
+Original commissions begin at £X.
+This helps set expectations without turning the page into a shop.
+06 — THE FINAL NOTE
+A little something from Sara.
+Now, I think we need to finish this page in a way that feels personal.
+Not overly sentimental.
+Not overly commercial.
+Just a little reminder of why you create one-of-one pieces.
+Here's what I'd write:
+A NOTE ON ORIGINALS.
+I think there's something special about owning something that nobody else has.
+Not because it's expensive, or rare, or particularly important in the grand scheme of things.
+But because it's yours.
+I love the thought of creating a piece that eventually finds its place in someone's home. Something that becomes part of their everyday life. Something they walk past every morning, notice in different lights, and perhaps grow a little more attached to over time.
+And I love knowing that there won't be another one quite like it.
+I don't want to make hundreds of the same thing.
+I'd rather make one thing, really well, for someone who genuinely loves it.
+That's the idea, anyway.
+Sara x
+I think this is a beautiful way to close the page because it explains your philosophy without sounding like a sales pitch.
+07 — THE CLOSING
+At the very bottom, I'd keep things minimal.
+A thin horizontal line.
+Then:
+SOMETHING WORTH KEEPING.
+Made once. Made for you.
+And beneath:
+BACK TO THE ARCHIVE ↗
+Then your usual footer.
+IMPORTANTLY, EVERYWHERE THAT IT SAYS SARA X ON THIS PLAN, DON’T PUT SARA X 
+PUT MY SIGNATURE 
+MY SIGNATURE LOOKS LIKE THIS: 
+[IMAGE: media/image31.png]
+CAN YOU ALSO MAKE SURE MY SIGNATURE IS ON EACH AND EVERY ONE OF MY PAINTINGS IN A CORNER SUBTLY SOMEWHERE 

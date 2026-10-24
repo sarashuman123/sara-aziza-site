@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set w = work %}
+{% set c = w.collection_obj %}
+{% block content %}
+
+<section class="wrap section tight">
+  <div class="crumbs reveal" style="margin-bottom:2.5rem"><span><a href="/">SARA AZIZA</a></span><span><a href="/archive/">THE ARCHIVE</a></span><span><a href="{{ c.url }}">{{ c.title }}</a></span><span>{{ w.number }}</span></div>
+  <div class="artwork">
+    <div class="reveal">
+      <a class="plate" href="{{ w.img }}" data-zoom="{{ w.img }}" style="cursor:zoom-in">
+        <img src="{{ w.img }}" alt="{{ w.title }}. {{ w.medium }}, {{ w.year }}." decoding="async">
+      </a>
+    </div>
+    <aside class="details reveal d1">
+      <div class="eyebrow">{{ w.number }} / {{ c.title }}</div>
+      <h1 class="display m" style="margin-top:1rem">{{ w.title }}.</h1>
+      {% if w.subtitle %}<p class="italic muted" style="margin-top:0.8rem">{{ w.subtitle }}.</p>{% endif %}
+      <dl>
+        <dt>Medium</dt><dd>{{ w.medium }}</dd>
+        <dt>Dimensions</dt><dd>{{ w.size }}</dd>
+        <dt>Year</dt><dd>{{ w.year }}</dd>
+        <dt>Edition</dt><dd>One of one. No prints.</dd>
+        <dt>Status</dt><dd>Original, signed{% if w.cover %}, cover piece{% endif %}.</dd>
+      </dl>
+      {% if w.note %}<span class="hand tilt-l">&ldquo;{{ w.note }}&rdquo;</span>{% endif %}
+      <p style="margin-top:2.4rem">{{ m.link('Enquire about something like this', '/enquiries/') }}</p>
+    </aside>
+  </div>
+</section>
+
+<section class="wrap section tight">
+  <div class="pager">
+    {{ m.link('Previous: ' ~ prev.number, prev.url) }}
+    {{ m.link('Next: ' ~ next.number, next.url) }}
+  </div>
+</section>
+
+{% endblock %}
+{% block extra %}<div class="lightbox" role="dialog" aria-label="Enlarged artwork"><img alt=""></div>{% endblock %}

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set n = note %}
+{% block content %}
+
+<article class="wrap section tight note-page">
+  <header class="head">
+    <div class="crumbs reveal"><span><a href="/">SARA AZIZA</a></span><span><a href="/notes/">STUDIO NOTES</a></span><span>NO. {{ n.num }}</span></div>
+    <div class="meta eyebrow reveal d1" style="margin-top:2.5rem">NOTE NO. {{ n.num }} &nbsp;&middot;&nbsp; {{ n.kind }} / {{ n.date }}</div>
+    <h1 class="display l reveal d1">{{ n.title }}</h1>
+  </header>
+
+  {% if n.image_obj %}
+  <figure class="hero reveal" style="margin-left:0;margin-right:0">
+    <div class="plate flat"><a href="{{ n.image_obj.url }}"><img src="{{ n.image_obj.img }}" alt="{{ n.image_obj.title }}" decoding="async"></a></div>
+    <figcaption class="caption">{{ m.label(n.image_obj, show_collection=True) }}</figcaption>
+  </figure>
+  {% endif %}
+
+  <div class="body reveal">
+    {% for p in n.paras %}<p>{{ p }}</p>{% endfor %}
+    {% if n.margin %}<span class="hand tilt-r">{{ n.margin }}</span>{% endif %}
+  </div>
+
+  {% if n.gallery_objs %}
+  <div class="strip">
+    {% for w in n.gallery_objs %}
+    <figure class="reveal d{{ loop.index0 % 3 }}" style="margin:0">
+      {{ m.plate(w, sizes='30vw') }}
+      <figcaption class="caption">{{ m.label(w) }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if n.postscript %}
+  <div class="body reveal">
+    <hr class="rule faint short" style="margin:2rem 0 1rem">
+    <span class="hand update tilt-l">{{ n.postscript }}</span>
+  </div>
+  {% endif %}
+
+  <div class="body reveal" style="margin-top:3rem">
+    <div class="signoff">{{ m.sig('sm') }}</div>
+  </div>
+</article>
+
+<section class="wrap section tight">
+  <div class="pager">
+    {{ m.link('All the notes', '/notes/') }}
+    {% set nxt = notes[(n.number) % (notes | length)] %}
+    {{ m.link('Next note', nxt.url) }}
+  </div>
+</section>
+
+{% endblock %}

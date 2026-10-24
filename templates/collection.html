@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set c = collection %}
+{% block content %}
+
+<header class="wrap page-head">
+  <div class="crumbs reveal"><span><a href="/">SARA AZIZA</a></span><span><a href="/archive/">THE ARCHIVE</a></span><span>{{ c.title }}</span></div>
+  <div class="between" style="margin-top:2.5rem">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.2rem">COLLECTION NO. {{ c.num }}</div>
+      <h1 class="display xl reveal">{{ c.title }}</h1>
+      <p class="italic muted reveal d1" style="font-size:1.25em;margin-top:1.2rem">{{ c.strap }}</p>
+    </div>
+    <div class="corner eyebrow reveal d2"><span>{{ c.works | length }} WORKS</span><span>{{ c.feeling | upper }}</span></div>
+  </div>
+  <hr class="rule">
+</header>
+
+{% set shapes = ['wide', 'third-r', 'half-l', 'half-r', 'narrow', 'small', 'offset', 'third-l', 'wide'] %}
+<section class="wrap section gallery">
+{% for w in c.works %}
+  <figure class="g {{ shapes[loop.index0 % shapes | length] }} reveal" style="margin:0" data-parallax="{{ [0.0, 0.05, 0.02, 0.06][loop.index0 % 4] }}">
+    {{ m.plate(w, sizes='(max-width: 760px) 100vw, 60vw') }}
+    <figcaption class="caption">
+      {{ m.label(w) }}
+      {% if w.note and loop.index0 % 2 == 0 %}<span class="hand tilt-{{ 'l' if loop.index is odd else 'r' }}">&ldquo;{{ w.note }}&rdquo;</span>{% endif %}
+    </figcaption>
+  </figure>
+{% endfor %}
+</section>
+
+<section class="wrap section closing">
+  <hr class="rule faint" style="margin-bottom:3rem">
+  <div class="between">
+    {{ m.link('Back to the archive', '/archive/') }}
+    {% set nxt = collections[c.number % 5] %}
+    {{ m.link('Next: ' ~ nxt.title, nxt.url) }}
+  </div>
+</section>
+
+{% endblock %}

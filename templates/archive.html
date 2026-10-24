@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block content %}
+
+{{ m.page_head('THE ARCHIVE.', 'Five collections. One artist. No particular order of importance.',
+               ['A CATALOGUE OF WORKS', 'SARA AZIZA — SA 001 ONWARDS']) }}
+
+<div class="wrap">
+{% for c in collections %}
+  {% set f = c.feature %}
+
+  {% if c.layout == 'portrait-right' %}
+  <section class="spread portrait-right" id="collection-{{ c.num }}">
+    <div class="meta reveal">
+      <div class="eyebrow n">COLLECTION NO. {{ c.num }}</div>
+      <h2 class="display l">{{ c.title }}</h2>
+      <p class="strap">{{ c.strap }}</p>
+      {{ m.link('Explore the collection', c.url) }}
+    </div>
+    <div class="art reveal d1">
+      <div class="main" data-parallax="0.03">{{ m.plate(f) }}</div>
+      {% if c.overlap %}
+      <div class="tucked" data-parallax="0.08">
+        {{ m.plate(c.overlap, 'flat', sizes='(max-width: 760px) 50vw, 30vw') }}
+        <span class="hand">&ldquo;{{ c.annotation }}&rdquo;</span>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+  <hr class="rule faint">
+
+  {% elif c.layout == 'technical-left' %}
+  <section class="spread technical-left" id="collection-{{ c.num }}">
+    <div class="art reveal">
+      <span class="tick top">70 &times; 100 CM</span>
+      <span class="tick side">GRAPHITE</span>
+      <div data-parallax="0.03">{{ m.plate(f) }}</div>
+      <div class="fig">{{ c.fig }}</div>
+    </div>
+    <div class="meta reveal d1">
+      <div class="eyebrow n">COLLECTION NO. {{ c.num }}</div>
+      <h2 class="display l">{{ c.title }}</h2>
+      <p class="strap">{{ c.strap }}</p>
+      {{ m.link('Explore the collection', c.url) }}
+      <span class="hand tilt-l">&ldquo;{{ c.annotation }}&rdquo;</span>
+    </div>
+  </section>
+
+  {% elif c.layout == 'still-life' %}
+  <section class="spread still-life" id="collection-{{ c.num }}">
+    <div class="art reveal" data-parallax="0.04">{{ m.plate(f, sizes='(max-width: 760px) 90vw, 38vw') }}</div>
+    <div class="meta reveal d1">
+      <div class="eyebrow n">COLLECTION NO. {{ c.num }}</div>
+      <h2 class="display l">{{ c.title }}</h2>
+      <p class="strap">{{ c.strap }}</p>
+      {{ m.link('Explore the collection', c.url) }}
+      <div class="hand tilt-r">&ldquo;{{ c.annotation }}&rdquo;</div>
+    </div>
+  </section>
+
+  {% elif c.layout == 'full-bleed' %}
+  <section class="spread full-bleed" id="collection-{{ c.num }}">
+    <div class="art reveal">{{ m.plate(f, 'flat', sizes='100vw') }}</div>
+    <div class="panel reveal d1">
+      <div class="eyebrow n">COLLECTION NO. {{ c.num }}</div>
+      <h2 class="display s" style="margin:0.6rem 0 0.8rem">{{ c.title }}</h2>
+      <p class="strap" style="margin-bottom:1.2rem">{{ c.strap }}</p>
+      {{ m.link('Explore the collection', c.url) }}
+      <span class="hand tilt-l" style="margin-top:1.4rem">&ldquo;{{ c.annotation }}&rdquo;</span>
+    </div>
+  </section>
+  <div class="spacer"></div>
+
+  {% elif c.layout == 'collage' %}
+  <section class="spread collage" id="collection-{{ c.num }}">
+    <div class="meta reveal">
+      <div class="eyebrow n">COLLECTION NO. {{ c.num }}</div>
+      <h2 class="display l">{{ c.title }}.</h2>
+      <p class="strap">{{ c.strap }}</p>
+      {{ m.link('Explore the collection', c.url) }}
+    </div>
+    <div class="collage-board reveal d1">
+      {% for w in c.works %}
+      <div class="piece p{{ loop.index }}" data-parallax="{{ [0.02, 0.06, 0.04][loop.index0] }}">{{ m.plate(w, sizes='(max-width: 760px) 100vw, 55vw') }}</div>
+      {% endfor %}
+      <div class="piece p4" data-parallax="0.07">{{ m.plate(works | selectattr('id', 'equalto', 'SA-014') | first, sizes='(max-width: 760px) 100vw, 50vw') }}</div>
+      <span class="hand">&ldquo;{{ c.annotation }}&rdquo;</span>
+    </div>
+  </section>
+  {% endif %}
+
+{% endfor %}
+</div>
+
+<section class="wrap section vast closing">
+  <h2 class="display m reveal">THAT'S EVERYTHING.</h2>
+  <p class="sub reveal d1">For now, anyway.</p>
+  <p class="reveal d2" style="margin-top:2rem">{{ m.link('Back to the cover', '/') }}</p>
+  <p class="hand tilt-l reveal d3" style="margin-top:2rem">&ldquo;The collection is still growing.&rdquo;</p>
+</section>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block content %}
+
+{{ m.page_head('UNFINISHED BUSINESS.', 'Things I started. Things I meant to start. Things I keep saying I\'ll finish.', ['A LIST, IN PROGRESS', 'SARA AZIZA']) }}
+
+<section class="wrap section tight">
+  <p class="measure reveal">Not everything makes it to the archive. Some pieces are waiting for a better afternoon. Some are waiting for me to admit they're done. This page is where they wait.</p>
+  <ul class="unfinished-list reveal d1">
+    <li><span>The rest of Westminster Bridge.</span><span class="hand">Decided it was finished. Possibly a lie.</span></li>
+    <li><span>The cone inside St Paul's.</span><span class="hand">Still haven't drawn the cone.</span></li>
+    <li><span>A proper self-portrait.</span><span class="hand">Avoiding this one.</span></li>
+    <li><span>Something with too many windows.</span><span class="hand">Reference photos: 212. Drawings: 0.</span></li>
+    <li><span>The list of things to draw.</span><span class="hand">Update: the list has gotten longer.</span></li>
+  </ul>
+  <p class="hand tilt-l reveal d2" style="margin-top:2.5rem">Check back. Or don't. It'll still be unfinished.</p>
+  <p class="reveal d3" style="margin-top:2rem">{{ m.link('Back to the cover', '/') }}</p>
+</section>
+
+{% endblock %}

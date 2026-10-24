@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block content %}
+
+{# 01 — the opening #}
+{{ m.page_head('STUDIO NOTES.', 'Occasional thoughts, observations & other distractions.', ['A PERSONAL JOURNAL', 'CURATED BY SARA AZIZA']) }}
+
+<section class="wrap section tight notes-intro">
+  <span class="hand tilt-l reveal">Somewhat organised. Occasionally interesting.</span>
+  <div class="reveal d1">
+    <p>I have a habit of collecting things.</p>
+    <p>Interesting thoughts. Half-formed ideas. Photographs I like. Things I want to draw. Things I probably won't.</p>
+    <p>This is where I put the things that don't quite belong anywhere else.</p>
+    <p class="italic muted">Think of it as a notebook with slightly better organisation.</p>
+  </div>
+</section>
+
+{# 05 — a featured note #}
+<section class="wrap section tight">
+  <hr class="rule faint">
+  <article class="featured">
+    <div class="reveal" data-parallax="0.03">{{ m.plate(featured.image_obj, sizes='(max-width: 760px) 100vw, 50vw') }}</div>
+    <div class="body reveal d1">
+      <div class="eyebrow dark">FEATURED NOTE / NO. {{ featured.num }}</div>
+      <h2 class="display m"><a href="{{ featured.url }}">{{ featured.title }}</a></h2>
+      {% for p in featured.paras %}<p>{{ p }}</p>{% endfor %}
+      <p class="more">{{ m.link('Read the note', featured.url) }}</p>
+    </div>
+  </article>
+  <hr class="rule faint">
+</section>
+
+{# 02 — the notebook #}
+<section class="wrap section notebook">
+{% for n in entries %}
+  <article class="entry {{ n.size }} reveal d{{ loop.index0 % 3 }}">
+    {% if n.margin %}<span class="hand margin-note">{{ n.margin }}</span>{% endif %}
+    {% if n.image_obj %}
+      <div class="plate" data-parallax="{{ 0.03 if n.size == 'large' else 0.07 }}">
+        <a href="{{ n.url }}"><img src="{{ n.image_obj.img_s }}" srcset="{{ n.image_obj.img_s }} 900w, {{ n.image_obj.img }} 1800w" sizes="(max-width: 760px) 100vw, {{ '55vw' if n.size == 'large' else '30vw' }}" alt="{{ n.image_obj.title }}" loading="lazy" decoding="async"></a>
+      </div>
+    {% endif %}
+    <div class="kind eyebrow">NOTE NO. {{ n.num }} / {{ n.kind }}</div>
+    <h3 class="display {{ 'm' if n.size == 'large' else 's' }}"><a href="{{ n.url }}">{{ n.title }}</a></h3>
+    {% for p in n.paras %}<p>{{ p }}</p>{% endfor %}
+    {% if n.postscript %}<span class="hand update tilt-l">{{ n.postscript }}</span>{% endif %}
+    <p class="more">{{ m.link('Read', n.url) }}</p>
+  </article>
+{% endfor %}
+</section>
+
+{# 03 — the different kinds of notes #}
+<section class="wrap section">
+  <div class="eyebrow dark" style="margin-bottom:2rem">THE REGULAR COLUMNS</div>
+  <ul class="kinds">
+  {% for k, d in note_kinds %}
+    <li class="reveal"><span class="small-caps"><span class="kn">0{{ loop.index }} /</span>{{ k }}</span><p>{{ d }}</p></li>
+  {% endfor %}
+  </ul>
+</section>
+
+{# 08 — the closing #}
+<section class="wrap section vast closing">
+  <h2 class="display m reveal">THAT'S ALL I'VE GOT FOR NOW.</h2>
+  <p class="sub reveal d1">I'll probably think of something else.</p>
+  <div class="reveal d2" style="margin-top:1.5rem">{{ m.sig('sm') }}</div>
+  <p class="reveal d3" style="margin-top:2rem">{{ m.link('Back to the cover', '/') }}</p>
+</section>
+
+{% endblock %}

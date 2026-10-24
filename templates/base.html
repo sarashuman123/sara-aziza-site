@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} — {% endif %}Sara Aziza</title>
+<meta name="description" content="Sara Aziza. An ongoing collection of curiosities: faces, buildings, cars, and other things worth looking at for a little longer.">
+<link rel="preload" href="/static/fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="/static/signature.png" type="image/png">
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+<nav class="nav" aria-label="Main">
+  <a class="brand" href="/">SARA AZIZA</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+  <ul id="menu">
+  {% for label, href in site.nav %}
+    <li><a href="{{ href }}"{% if page_path == href or (href != '/' and page_path.startswith(href)) %} aria-current="page"{% endif %}>{{ label }}</a></li>
+  {% endfor %}
+  </ul>
+</nav>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <hr class="rule faint">
+  <div class="between" style="margin-top:2rem">
+    <div class="copy">{{ site.name }} &copy; {{ site.year }}</div>
+    <div class="foot-nav">
+    {% for label, href in site.footer_nav %}<a href="{{ href }}">{{ label }}</a>{% endfor %}
+    </div>
+  </div>
+</footer>
+
+{% block extra %}{% endblock %}
+<script src="/static/site.js" defer></script>
+</body>
+</html>

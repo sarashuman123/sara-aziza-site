@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block content %}
+
+{# 01 — the opening #}
+{{ m.page_head('ENQUIRIES.', enq.strap, [enq.corner, 'SARA AZIZA']) }}
+
+{# 02 — the philosophy #}
+<section class="wrap section vast manifesto">
+  <div class="eyebrow reveal" style="margin-bottom:2rem">ONE PIECE. ONE HOME. NO DUPLICATES.</div>
+  <h2 class="heading reveal d1">
+    {% for l in enq.manifesto_heading %}<span class="display xl">{{ l }}</span>{% endfor %}
+  </h2>
+  <div class="body reveal d2">
+    {% for p in enq.manifesto %}<p>{{ p }}</p>{% endfor %}
+  </div>
+</section>
+
+{# 03 — the commissions #}
+<section class="wrap section commissions">
+  <div class="reveal">
+    <h2 class="display m">{{ enq.commissions_heading }}</h2>
+    <p class="sub">{{ enq.commissions_sub }}</p>
+  </div>
+  <div class="reveal d1">
+    {% for p in enq.commissions %}<p>{{ p }}</p>{% endfor %}
+    <div class="tags">{% for t in enq.commissions_tags %}<span>{{ t }}</span>{% endfor %}</div>
+  </div>
+</section>
+
+{# 04 — the process #}
+<section class="wrap section">
+  <div class="between" style="margin-bottom:clamp(2rem,4vw,3.5rem)">
+    <h2 class="display m reveal">HOW IT WORKS.</h2>
+    <div class="eyebrow reveal d1">THREE STEPS, NONE OF THEM COMPLICATED</div>
+  </div>
+  <div class="process">
+  {% for num, t, s, paras in enq.process %}
+    <div class="step reveal d{{ loop.index0 }}">
+      <div class="num">{{ num }}</div>
+      <div class="st small-caps">{{ t }}</div>
+      <div class="ss">{{ s }}</div>
+      {% for p in paras %}<p>{{ p }}</p>{% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+{# 05 — the enquiry form #}
+<section class="wrap section enquiry" id="form">
+  <div class="lead-in reveal">
+    <h2 class="display m" style="margin-bottom:1.4rem">{{ enq.form_heading }}</h2>
+    {% for p in enq.form_sub %}<p>{{ p }}</p>{% endfor %}
+    <p class="muted" style="font-size:0.95em;margin-top:2rem">{{ enq.pricing }}</p>
+  </div>
+  <form class="form reveal d1" method="post" {% if site.form_action %}action="{{ site.form_action }}" enctype="multipart/form-data"{% endif %} data-mailto="{{ site.contact_email }}" novalidate>
+    <div class="fields">
+    {% for name, lab, ph, kind in enq.fields %}
+      <div class="field">
+        <label for="f-{{ name }}">{{ lab }}</label>
+        {% if kind == 'textarea' %}
+        <textarea id="f-{{ name }}" name="{{ name }}" placeholder="{{ ph }}" required></textarea>
+        {% elif kind == 'file' %}
+        <input id="f-{{ name }}" name="{{ name }}" type="file" accept="image/*" multiple aria-describedby="f-{{ name }}-hint">
+        <span id="f-{{ name }}-hint" class="italic muted" style="font-size:0.9em">{{ ph }}</span>
+        {% else %}
+        <input id="f-{{ name }}" name="{{ name }}" type="{{ kind }}" placeholder="{{ ph }}"{% if name in ('name', 'email') %} required{% endif %}>
+        {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+    <label class="hp" aria-hidden="true">Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    <div class="submit">
+      <button type="submit">{{ enq.form_button }} &#8599;</button>
+    </div>
+    <p class="foot">{{ enq.form_footnote }}</p>
+    <p class="sent">Thank you. Your email draft should have opened. If it didn't, write to {{ site.contact_email }}.</p>
+  </form>
+</section>
+
+{# 06 — the final note #}
+<section class="wrap section vast final-note">
+  <div class="eyebrow reveal" style="line-height:2">A LITTLE SOMETHING FROM SARA</div>
+  <div class="body reveal d1">
+    <h2 class="display s" style="margin-bottom:1.6rem">{{ enq.note_title }}</h2>
+    {% for p in enq.note %}<p>{{ p }}</p>{% endfor %}
+    <div class="signoff">{{ m.sig() }}</div>
+  </div>
+</section>
+
+{# 07 — the closing #}
+<section class="wrap section end-block">
+  <hr class="rule" style="margin-bottom:3rem">
+  <h2 class="display l reveal">{{ enq.closing[0] }}</h2>
+  <p class="sub reveal d1">{{ enq.closing[1] }}</p>
+  <div class="links reveal d2">{{ m.link('Back to the archive', '/archive/') }}</div>
+</section>
+
+{% endblock %}

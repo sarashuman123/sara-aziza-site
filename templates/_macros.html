@@ -1,0 +1,38 @@
+{% macro sig(size='') -%}
+<span class="sig {{ size }}" aria-label="Sara's signature"><img src="/static/signature.png" alt="Sara Aziza, signed"></span>
+{%- endmacro %}
+
+{% macro plate(w, cls='', sizes='(max-width: 760px) 100vw, 60vw', parallax=None, lazy=True) -%}
+<a class="plate {{ cls }}" href="{{ w.url }}"{% if parallax %} data-parallax="{{ parallax }}"{% endif %}>
+  <img src="{{ w.img }}" srcset="{{ w.img_s }} 900w, {{ w.img }} 1800w" sizes="{{ sizes }}"
+       alt="{{ w.title }}. {{ w.medium }}, {{ w.year }}."{% if lazy %} loading="lazy" decoding="async"{% endif %}>
+</a>
+{%- endmacro %}
+
+{% macro label(w, show_collection=False) -%}
+<div class="label">
+  <span class="n">{{ w.number }}</span> &mdash; {{ w.title | upper }}
+  <span class="sub">{{ w.medium }}{% if show_collection %} &middot; {{ w.collection_obj.title }}{% endif %}</span>
+</div>
+{%- endmacro %}
+
+{% macro link(text, href, cls='') -%}
+<a class="link {{ cls }}" href="{{ href }}">{{ text }} <span class="arrow">&#8599;</span></a>
+{%- endmacro %}
+
+{% macro page_head(big, strap, corner_lines, eyebrow=None) -%}
+<header class="wrap page-head">
+  <div class="between">
+    <div>
+      {% if eyebrow %}<div class="eyebrow" style="margin-bottom:1.2rem">{{ eyebrow }}</div>{% endif %}
+      <h1 class="display xl reveal">{{ big }}</h1>
+      <p class="italic muted reveal d1" style="font-size:1.25em;margin-top:1.2rem">{{ strap }}</p>
+    </div>
+    <div class="corner eyebrow reveal d2">
+      {% for l in corner_lines %}<span>{{ l }}</span>{% endfor %}
+    </div>
+  </div>
+  <hr class="rule">
+</header>
+{%- endmacro %}
+
