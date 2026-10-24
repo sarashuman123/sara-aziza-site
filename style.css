@@ -213,7 +213,7 @@ a.plate:hover img { transform: scale(1.015); }
 /* ================= COVER ================= */
 .masthead { padding-top: clamp(2rem, 5vw, 4rem); }
 .masthead .name {
-  font-size: clamp(3.2rem, 15.2vw, 17rem);
+  font-size: clamp(3.2rem, 13.5vw, 15rem);
   letter-spacing: 0.035em;
   line-height: 0.85;
   font-weight: 500;
